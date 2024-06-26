@@ -1,0 +1,14 @@
+{
+    "name": "ithub_practice_2024",
+    "version": "1.0.0",
+    "description": "Многопоточный HTTP клиент + (websocket) сервер",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "express": "^4.17.1",
+        "ws": "^7.4.5"
+    }
+}
