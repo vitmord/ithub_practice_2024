@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,6 @@
         <div class="container">
             <h1 class="mt-3 mb-5">Многопоточный HTTP клиент + (websocket) сервер</h1>
             <div class="form-group">
-                <!-- <label for="keyword">Keyword</label> -->
                 <input type="text" id="keyword" class="form-control" list="keywords" placeholder="Введите ключевое слово" />
                 <datalist id="keywords">
                     <option value="ithub"></option>
@@ -117,7 +116,6 @@
                 }
             }
 
-            // Load previously downloaded content from LocalStorage on page load
             document.addEventListener('DOMContentLoaded', () => {
                 for (let i = 0; i < localStorage.length; i++) {
                     const fileName = localStorage.key(i)
